@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("Helloworld")
+	fmt.Println("Hello world1")
 	fmt.Println("Hello world!")
+	measureMyData()
 }

@@ -9,6 +9,6 @@
     "go.coverOnSave": false,
     "go.useCodeSnippetsOnFunctionSuggest": false,
     "go.formatOnSave": true,
-    "go.formatTool": "goreturns",
+    "go.formatTool": "gofmt",
     "go.gocodeAutoBuild": false
 }
