@@ -22,14 +22,12 @@ func (c circle) area() float64 {
 	return math.Pi * c.raidus * c.raidus
 }
 
-func measure(g geometry) {
+func measure(g circle) {
 	fmt.Println(g)
 	fmt.Println(g.area())
 }
 
 func measureMyData() {
-	r := rect{width: 3, height: 4}
 	c := circle{raidus: 5}
-	measure(r)
 	measure(c)
 }
